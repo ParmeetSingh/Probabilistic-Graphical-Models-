@@ -85,7 +85,7 @@ for i=1:genotypeFactor.card
  prob = [prob,pdt/(sum_total*sum_total)];
  else
  prob = [prob,2*pdt/(sum_total*sum_total)];
- end
+ 
  
  indexes = [indexes,i]
  
